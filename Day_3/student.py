@@ -9,10 +9,6 @@ def student(*tup):
     print("Student with maximum marks:")
     max_marks = max(tup, key=lambda x: x[2])
     print(max_marks[1])
-
-
-
-
 tup1=(67,"Veda",23)
 tup2=(75,"Tejaswi",18)
 tup3=(85,"deepthi",95)
