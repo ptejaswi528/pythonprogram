@@ -19,8 +19,8 @@ class B(BankAccount):
     def __init__(self,balance=0):
         super().__init__(balance)
     def display(self):
-        
-        print(f"Balance: ₹{self.balance()}")
+
+        print(f"Balance: ₹{self.get_balance()}")
 ob=BankAccount()
 ob.deposit(5000)
 ob.withdraw(2000)

@@ -1,6 +1,7 @@
-from abstractshape import rectangle, circle
-rec_obj=rectangle()
-print("area of rectangle:",rec_obj.area(5,10))
+from poly import Rectangle, Circle
 
-cir_obj=circle()
-print("area of circle:",cir_obj.area(7))
+rec_obj = Rectangle(5, 10)
+print("area of rectangle:", rec_obj.area())
+
+cir_obj = Circle(7)
+print("area of circle:", cir_obj.area())

@@ -14,10 +14,11 @@ class Circle(Shape):
         self.radius=radius
     def area(self):
         return 3.14*self.radius*self.radius
-l=int(input("Enter length of rectangle: "))
-b=int(input("Enter breadth of rectangle: "))
-ob=Rectangle(l,b)
-print(f"Area of Rectangle: {ob.area()}")
-r=int(input("Enter radius of circle: "))
-c=Circle(r)
-print(f"Area of Circle: {c.area()}")
+if __name__ == "__main__":
+    l = int(input("Enter length of rectangle: "))
+    b = int(input("Enter breadth of rectangle: "))
+    ob = Rectangle(l, b)
+    print(f"Area of Rectangle: {ob.area()}")
+    r = int(input("Enter radius of circle: "))
+    c = Circle(r)
+    print(f"Area of Circle: {c.area()}")
